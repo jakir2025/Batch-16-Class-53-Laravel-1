@@ -1,0 +1,225 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Open Sans", serif;
+}
+
+/* .header-section{
+    background-image: url('img/best-delicious-food-wallpaper-preview\ 1920x1080_1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(12, 6, 6);
+} */
+
+.header-section{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.img-responsive{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.hero-contant{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.hero-content h1{
+      font-size: 4rem;
+      margin-bottom: 20px;
+      color: rgb(249, 253, 249);
+}
+.hero-content p{
+    font-size: 1.5rem;
+    color: rgb(247, 253, 253);
+    margin-bottom: 30px;
+}
+.btn-custom{
+    background-color: rgb(164, 10, 247);
+    border: none;
+    border-radius: 50px;
+    padding: 15px 30px; 
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    transition: background-color 0.10c ease;
+}
+.btn-custom:hover{
+    background-color: blue; 
+}
+/* responsive hrader section  start*/
+
+@media screen and (max-width: 430px) {
+    .hero-contant h1{
+        font-size: 2rem;
+    }
+    .hero-contant p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 427px) {
+    .hero-contant h1{
+        font-size: 1.50rem;
+    }
+    .hero-contant p{
+        font-size: 0.70rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .btn-custom{
+        padding: 10px 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 430px) {
+    .btn-custom{
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width:314px) {
+    .btn-custom{
+        padding: 7px 14px;
+    }
+}
+@media screen and (max-width:303px) {
+    .btn-custom{
+        margin-bottom: 5px;
+        padding: 6px 12px;
+    }
+}
+
+/* responsive hrader section  End*/
+
+
+
+.feature-section{
+    padding: 20px 0px;
+    
+}
+.feature-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.feature-card{
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    box-shadow: -19px 17px 7px 4px rgba(75, 113, 219, 0.5);
+    margin-bottom: 25px;
+    transition: transform 0.5c ease
+}
+.feature-card:hover{
+    transform: translate(10px)
+}
+.feature-card img{
+    width: 70px;
+}
+
+.feature-card h5{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.feature-card p{
+    font-size: 1.3rem;
+}
+
+
+.reveiw-section{
+    padding: 20px 0px;
+}
+.reveiw-section h2{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.review-card{
+    padding: 20px;
+    background-color: cadetblue;
+    border-radius: 20px;
+    box-shadow: 20px 16px 8px 6px rgba(71, 142, 172, 0.5);
+    margin-bottom: 20px;
+    transition: transform 0.5c ease;
+}
+.review-card:hover{
+    transform:translate(-10px)
+}
+.review-card img{
+    border-radius: 50%;
+   
+}
+.review-card h5{
+    text-align: center;
+    font-weight: 600;
+}
+.review-card p{
+    text-align: center;
+}
+.star-review{
+    text-align: center;
+}
+
+.checkout-section{
+    padding: 20px 0px;
+}
+.checkout-section h2{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.checkout-form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(113, 105, 105);
+    box-shadow: 0 40px 20px 10px rgba(66, 73, 77, 0.5);
+}
+.checkout-form .custom-input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer-section{
+    background-color: black;
+    padding: 60px 0px;
+    color: white;
+   
+}
+.footer-contant{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+   }
+
+.footer-img{
+    width: 150px;
+    width: 60px;
+   
+   }
+.social-icons a{
+    font-size: 35px;
+    color: white;
+    padding: 6px;
+    transition: color 0.5c ease;
+    
+   }
+.social-icons a:hover{
+    color:rgb(57, 18, 165); 
+   }
+
